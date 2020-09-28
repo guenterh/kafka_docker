@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+/swissbib_index/apps/kafka-topics-administrator/bin/kafka-topics-administrator -c  /swissbib_index/apps/kafka-topics-administrator-config/local.config.properties $@
+
